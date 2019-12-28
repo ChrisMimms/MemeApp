@@ -1,43 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible'>
-    <title>MEME!</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <link rel="stylesheet" 
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 
-        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" 
-        crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-</head>
-<body>
-    <div class="container">
-        <div class="text-center">
-            <div class="row justify-content-md-center align-items-center">
-                <div class="col col-lg-2 align-self-center" name="button_control">
-                    <button id="prev-image-id" type="button" class="btn btn-info">Prev</button>
-                </div>
-                <div class="col-12 col-md-auto">
-                    <div class="card">
-                        <img id="meme-image-id" class="card-img-top meme-block" src="" alt="Card image caption">
-                        <div class="card-block">
-                            <p id="meme-title-id" class="card-text">...</p>
-                            <p id="meme-likes-id" class="card-text">0 Likes</p>
-                            <div>
-                                <button id="like-button-id" type="button" class="btn btn-success">Like</button>
-                                <button id="dislike-button-id" type="button" class="btn btn-danger">Dislike</button> 
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-lg-2 align-self-center" name="button_control">
-                    <button id="next-image-id" type="button" class="btn btn-info">Next</button>
-                </div>
-            </div>
+ <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" />
+  <title>MEME!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <link
+   rel="stylesheet"
+   href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+   integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+   crossorigin="anonymous"
+  />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ </head>
+ <body>
+  <div class="container">
+   <div class="text-center">
+    <div class="row justify-content-md-center align-items-center">
+     <div class="col col-lg-2 align-self-center" name="button_control">
+      <button id="prev-image-id" type="button" class="btn btn-info">
+       Prev
+      </button>
+     </div>
+     <div class="col-12 col-md-auto">
+      <div class="card">
+       <img
+        id="meme-image-id"
+        class="card-img-top meme-block"
+        src=""
+        alt="Card image caption"
+       />
+       <div class="card-block">
+        <p id="meme-title-id" class="card-text">...</p>
+        <p id="meme-likes-id" class="card-text">0 Likes</p>
+        <div>
+         <button id="like-button-id" type="button" class="btn btn-success">
+          Like
+         </button>
+         <button id="dislike-button-id" type="button" class="btn btn-danger">
+          Dislike
+         </button>
         </div>
+       </div>
+      </div>
+     </div>
+     <div class="col col-lg-2 align-self-center" name="button_control">
+      <button id="next-image-id" type="button" class="btn btn-info">
+       Next
+      </button>
+     </div>
     </div>
-<script src='main.js'></script>
-</body>
+   </div>
+  </div>
+  <script src="main.js"></script>
+ </body>
 </html>
